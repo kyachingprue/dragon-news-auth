@@ -1,9 +1,12 @@
 import React from 'react';
+import SocialLogin from '../../Layouts/SocialLogin';
+import FindUs from '../../Layouts/FindUs';
 
 const RightNav = () => {
   return (
-    <div>
-      <h2>Right Navbar</h2>
+    <div className='space-y-6'>
+      <SocialLogin></SocialLogin>
+      <FindUs></FindUs>
     </div>
   );
 };
